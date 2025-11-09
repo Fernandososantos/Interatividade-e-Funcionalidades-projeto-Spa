@@ -1,0 +1,1 @@
+export const Store={all:()=>[],add:i=>i,remove:id=>{}};

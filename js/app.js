@@ -1,0 +1,1 @@
+import{PageHome}from'./templates.js';window.addEventListener('DOMContentLoaded',()=>{document.getElementById('app').innerHTML=PageHome();});

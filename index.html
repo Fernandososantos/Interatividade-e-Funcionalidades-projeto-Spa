@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPA Cadastro & Lista</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <ul>
+        <li><strong>Meu App SPA</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#/" data-link>Início</a></li>
+        <li><a href="#/cadastro" data-link>Cadastro</a></li>
+        <li><a href="#/lista" data-link>Lista</a></li>
+        <li><a href="#/sobre" data-link>Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div id="app" aria-live="polite" aria-busy="false"></div>
+  </main>
+
+  <footer class="container footer">
+    <small>SPA de Exemplo — <span id="year"></span></small>
+  </footer>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

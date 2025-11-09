@@ -1,0 +1,11 @@
+:root {
+  --gap: 1rem;
+}
+#app { min-height: 50vh; }
+.footer { margin-top: 3rem; text-align: center; }
+.grid { display: grid; gap: var(--gap); }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; }
+.error-msg { color: #b91c1c; font-size: .9rem; margin-top: .25rem; }
+.input-invalid { border-color: #ef4444 !important; }
+.actions { display: flex; gap: .5rem; flex-wrap: wrap; }

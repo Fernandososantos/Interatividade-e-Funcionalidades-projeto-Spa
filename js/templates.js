@@ -1,0 +1,1 @@
+export const PageHome=()=>`<h1>Bem-vindo</h1>`;
